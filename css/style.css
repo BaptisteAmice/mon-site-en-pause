@@ -1,0 +1,80 @@
+/*====================================================
+      Global
+====================================================*/
+
+ul
+{
+  list-style: none;
+  padding-left:0;
+  
+}
+
+/*====================================================
+      Header
+====================================================*/
+
+header{
+  position:fixed;
+  width:100%;
+}
+
+/*====================================================
+      Accueil
+====================================================*/
+
+#Accueil
+{
+  background-color:darkgreen;
+}
+
+/*====================================================
+      Accueil2
+====================================================*/
+
+#Accueil2
+{
+  background-color:blue;
+  text-align: center;
+  padding-right:15em;
+  padding-left:15em;
+  padding-top:3em;
+  padding-bottom:3em;
+}
+
+
+/*=================
+      Mobile
+==================*/
+
+@media screen and (max-width: 900px) {
+  #Accueil2
+  {
+    padding-right:3em;
+    padding-left:3em;
+  }
+}
+
+/*====================================================
+      Compétences
+====================================================*/
+#Competences 
+{
+  background-color:pink;
+  text-align: center;
+  
+}
+
+#Competences ul li {
+  margin-top:2em;
+  margin-bottom:2em;
+
+}
+
+#Competences ul li div {
+  margin-right:1em;
+  margin-left:1em;
+  background-color:white;
+  height:100%;
+}
+
+
