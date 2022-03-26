@@ -48,6 +48,7 @@ header{
   }
 
 
+
 #Accueil  article {
     align-self: center;
   }
@@ -125,7 +126,10 @@ header{
 
 #Formation 
 {
-  background-color:#dfdfdf;
+  background-color:#e4e2e2;
+  text-align:center;
+  padding-top:3em;
+  padding-bottom:3em;
   
 }
 /*====================================================
@@ -133,15 +137,18 @@ header{
 ====================================================*/
 #Competences 
 {
-  background-color:pink;
+  background-color:white;
   text-align: center;
+  padding-top:2em;
+  padding-bottom:2em;
   
 }
 
 #Competences ul li {
-  margin-top:2em;
-  margin-bottom:2em;
-
+  padding-top:3em;
+  padding-bottom:3em;
+  
+  
 }
 
 #Competences ul li div {
@@ -149,14 +156,93 @@ header{
   margin-left:1em;
   background-color:white;
   height:100%;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius:1em;
+  
+ 
+}
+
+#Competences ul li div:hover {
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 20px 60px;
+}
+
+#Competences ul li img {
+ border-radius:1em;
+ border-bottom-right-radius:0;
+ border-bottom-left-radius:0;
+  margin-bottom:2em;
 }
 
 
-#animationBallon
+/*====================================================
+      Projets
+====================================================*/
+
+#Projets
 {
-  background-color:red;
+  background-color:#e4e2e2;
+  text-align:center;
+  padding-top:3em;
+  padding-bottom:3em;
   
 }
 
+#Projets li
+{
+  margin-bottom:4em;
+  margin-top:4em;
+  
+}
+
+#Projets li div {
+  padding:5em;
+  
+}
+
+#Projets li div, #Projets li img {
+  
+  
+}
+
+#Projets li div{
+  psition:relative;
+  background-color:white;
+  height:100%;
+}
 
 
+/*====================================================
+      Expériences
+====================================================*/
+
+#Experiences 
+{
+  text-align:center;
+  padding-top:3em;
+  padding-bottom:3em;
+}
+
+
+#Experiences ul li {
+  background: #e4e2e2;
+  margin-bottom : 2em;
+  margin-top: 2em;  
+}
+
+
+#Experiences ul li article {
+  text-align: center;
+  align-self: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+
+
+
+/*====================================================
+      Loisirs
+====================================================*/

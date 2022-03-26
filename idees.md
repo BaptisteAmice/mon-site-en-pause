@@ -4,7 +4,7 @@
 #Competences
   pop up -> details
   ou 
-  hover ?
+  hover -> ouvre menu sur la gauche ou droute de l'ecran (fonction position)
 
 #projets
   ne charger que les premiers elements de la liste
