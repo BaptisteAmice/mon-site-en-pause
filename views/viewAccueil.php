@@ -1,18 +1,14 @@
- <section  id="Accueil" class="d-flex justify-content-center">
-        
-        
-          <article class="col-md-6 col-6">
-              <h1>BONJOUR !<br> JE SUIS BAPTISTE AMICE</h1
-              <h6>Bienvenue sur mon site !</h6>
-              <br><br>
-              <a target="_blank" href="pieces_jointes/CV_Baptiste_AMICE.pdf"  class="btn section-btn smoothScroll">CV complet</a>
-          </article>
-          
-            <img class="img-fluid" src="../img/baptiste_detoure.png"
-            alt="Photographie de moi"
-        width="462"
-        height="448">
-      </section>
+<section  id="Accueil">
+  <div class="overlay"></div>
+   <article class="col-md-6 col-sm-12">
+      <h1>Bonjour !<br> JE SUIS BAPTISTE AMICE</h1
+      <h6>Bienvenue sur mon site !</h6>
+      <br><br>
+      <a target="_blank" href="pieces_jointes/CV_Baptiste_AMICE.pdf"  class="btn section-btn smoothScroll">CV complet</a>
+    </article>
+    <img src="../img/baptiste_detoure.png" alt="Photographie de moi"
+        width="462" height="448">
+</section>
 
 
  <section id="Accueil2">

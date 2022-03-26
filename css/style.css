@@ -1,6 +1,11 @@
 /*====================================================
       Global
 ====================================================*/
+body {
+    background: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
 
 ul
 {
@@ -22,10 +27,69 @@ header{
       Accueil
 ====================================================*/
 
-#Accueil
-{
-  background-color:darkgreen;
-}
+#Accueil{
+    
+    background: url('../img/ldd/home-bg.jpg') no-repeat center center;
+    background-size: cover;
+    vertical-align: middle;
+
+
+  z-index:-1;
+    display: flex;
+    flex-direction: row;
+
+
+    min-height: 100vh;
+
+    
+    position: relative;
+    overflow: hidden;
+    padding-top: 10em; 
+  }
+
+
+#Accueil  article {
+    align-self: center;
+  }
+
+#Accueil  img {
+    z-index: 10;
+    border-radius: 50px;
+
+  }
+
+#Accueil h1 {
+    color: #ffffff;
+  }
+
+
+#Accueil  .section-btn {
+    background: transparent;
+    border: 2px solid #f9f9f9;
+    color: #f9f9f9;
+  }
+
+#Accueil  .section-btn:hover,
+#Accueil  .section-btn:focus {
+    background: #ce3232;
+    border-color: transparent;
+    color: #ffffff;
+  }
+
+
+   .overlay {
+     z-index:-2;
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
 
 /*====================================================
       Accueil2
@@ -33,7 +97,7 @@ header{
 
 #Accueil2
 {
-  background-color:blue;
+  background-color:white;
   text-align: center;
   padding-right:15em;
   padding-left:15em;
@@ -54,6 +118,16 @@ header{
   }
 }
 
+
+/*====================================================
+      Formation
+====================================================*/
+
+#Formation 
+{
+  background-color:#dfdfdf;
+  
+}
 /*====================================================
       Compétences
 ====================================================*/
@@ -76,5 +150,13 @@ header{
   background-color:white;
   height:100%;
 }
+
+
+#animationBallon
+{
+  background-color:red;
+  
+}
+
 
 

@@ -9,6 +9,10 @@
 
       Cela me permet d'acquérir les compétences informatiques dont j'ai besoin, tout en approfondissant le socle des matières générales (mathématiques, anglais) et en me professionnalisant.</p>
       <button class="btn btn-info" name="disciplines">Disciplines enseignées</button>
+
+
+      <div id="chart-dut"></div>
+        
       </article>
 
       <article>
@@ -21,3 +25,6 @@
 
       <button class="btn btn-warning" name="CV">CV complet</button>
     </section>
+<!--
+<script type="text/javascript" src="javascript.js"></script>
+-->
