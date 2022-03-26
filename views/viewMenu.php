@@ -6,30 +6,33 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
 
+
+    
+    <ul class="nav navbar-nav  mr-auto">
+
+      
       <li class="nav-item">
-        <a class="nav-link" href="#Accueil">Accueil</a>
+        <a href="#Accueil">Accueil</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Formation">Formation</a>
+        <a  href="#Formation">Formation</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Competences">Compétences</a>
+        <a href="#Competences">Compétences</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Projets">Projets</a>
+        <a href="#Projets">Projets</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Experiences">Expériences</a>
+        <a " href="#Experiences">Expériences</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Loisirs">Loisirs</a>
+        <a  href="#Loisirs">Loisirs</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Contacts">Contacts</a>
+        <a href="#Contacts">Contacts</a>
       </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">

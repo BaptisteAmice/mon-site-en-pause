@@ -1,4 +1,4 @@
-<section id="Experiences" class="">
+<section id="Experiences" class="filter-list">
       <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
   <ul>
     <li class="d-flex">
@@ -27,9 +27,8 @@
     </li>
 
 
-
-    
   </ul>
+   <label class="more">Voir davantage...</label>
 
 </section>
 

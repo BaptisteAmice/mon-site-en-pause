@@ -1,6 +1,6 @@
 <section id="Projets">
   <h2>PROJETS</h2>
-  <div>
+  <div class="filter-list">
     <h3>Mes projets scolaires</h3>
     <ul>
 
@@ -75,6 +75,7 @@ Suite à une étape de recherche sur le sujet, nous avons élaboré une charte g
 
       
     </ul>
+    <label class="more">Voir davantage...</label>
 
     
     

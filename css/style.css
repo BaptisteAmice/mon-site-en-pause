@@ -47,31 +47,20 @@ a:hover, a:active, a:focus {
 ====================================================*/
 
 navbar:first-of-type {
-  
-    border: none;
-    margin-bottom: 0;
-    padding: 25px 0;
+    padding: 25px 5px;
     position:fixed;
     z-index: 100;
-    
- 
-    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
   }
-
 
 navbar:first-of-type .navbar-brand {
-
     font-size: 25px;
     font-weight: 500;
-    letter-spacing: -1px;
-    
+    letter-spacing: -1px;  
   }
 
 
-
-
-
-navbar:first-of-type div li a {
+navbar:first-of-type a {
     font-size: 14px;
     font-weight: 500;
     color: black;
@@ -79,8 +68,10 @@ navbar:first-of-type div li a {
     padding-right: 22px;
     padding-left: 22px;
   }
+
+
 navbar:first-of-type div li a:hover {
-    background: transparent;
+   
     color: #ce3232;
     
   }
@@ -345,4 +336,25 @@ navbar:first-of-type div li a:hover {
     background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+
+
+/*====================================================
+      JavaScript
+====================================================*/
+.filter-list ul li:nth-child(n + 4) {
+  display: none !important;
+}
+.filter-list ul li.showList:nth-child(n + 4) {
+  display: flex !important;
+}
+.filter-list label.more {
+  color: #f86843;
+  font-weight: 600;
+  font-style: oblique;
+  display: none ;
+}
+.filter-list label.more.showMe {
+  display: block;
 }
