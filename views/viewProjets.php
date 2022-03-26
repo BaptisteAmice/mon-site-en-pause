@@ -3,9 +3,27 @@
   <div>
     <h3>Mes projets scolaires</h3>
     <ul>
-      <li class="d-flex flex-wrap">
-        <h4>Application web de gestion de films</h4>
+
+
+<li class="d-flex flex-wrap justify-content-around">
+        <article class=" col-md-5 col-sm-12">
+          <div>
+            <h4>Application web de gestion de films</h4>
+            <p>Ce projet a été réalisé dans une équipe de trois personnes avec le framework <a class="tooltip-div" data-toggle="tooltip" data-placement="top" title="blabla">CodeIgniter</a>. L'utilisation des langage PHP, JavaScript et de SQL, nous a permit de réaliser un site disposant des fonctionnalités suivantes :
+              <br>- Consultation d'une base de donnée de films
+              <br>- Création d'un compte utilisateur depuis un formulaire
+              <br>- Ajout de films à leurs favoris pour les utilisateurs connectés
+              <br>- Suppression de comptes utilisateurs et de leurs favoris par un administrateur
+           
+          </div>
+        </article>
+        <img class="col-md-5 col-sm-12 img-fluid"src="img/site_movies.PNG" alt="films favoris d'un utilisateur de l'application"
+              width="1137" height="526">
       </li>
+
+
+
+      
       
       <li class="d-flex flex-wrap justify-content-around">
         <img class="col-md-5 col-sm-12 img-fluid" src="img/logo_jeu_java.bmp" alt="logo du jeu"

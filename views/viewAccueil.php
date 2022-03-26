@@ -4,11 +4,13 @@
       <h1>Bonjour !<br> JE SUIS BAPTISTE AMICE</h1
       <h6>Bienvenue sur mon site !</h6>
       <br><br>
-      <a target="_blank" href="pieces_jointes/CV_Baptiste_AMICE.pdf"  class="btn section-btn smoothScroll">CV complet</a>
+      <a target="_blank" href="index.php"  class="btn section-btn smoothScroll">CV complet</a>
     </article>
     <img src="../img/baptiste_detoure.png" alt="Photographie de moi"
         width="462" height="448">
+  
 </section>
+
 
 
  <section id="Accueil2">

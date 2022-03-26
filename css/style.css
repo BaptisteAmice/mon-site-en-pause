@@ -14,14 +14,91 @@ ul
   
 }
 
+a {
+    color: #252525;
+    font-weight: normal;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    
+  }
+
+a:hover, a:active, a:focus {
+    color: #ce3232;
+    outline: none;
+  }
+
+
+  .section-btn {
+    background: #ce3232;
+    border: 0;
+    border-radius: 100px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: inherit;
+    font-weight: normal;
+    padding: 15px 30px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    
+  }
+
 /*====================================================
       Header
 ====================================================*/
 
-header{
-  position:fixed;
-  width:100%;
-}
+navbar:first-of-type {
+  
+    border: none;
+    margin-bottom: 0;
+    padding: 25px 0;
+    position:fixed;
+    z-index: 100;
+    
+ 
+    
+  }
+
+
+navbar:first-of-type .navbar-brand {
+
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    
+  }
+
+
+
+
+
+navbar:first-of-type div li a {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: -0.5px;
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+navbar:first-of-type div li a:hover {
+    background: transparent;
+    color: #ce3232;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*====================================================
       Accueil
@@ -34,14 +111,14 @@ header{
     vertical-align: middle;
 
 
-  z-index:-1;
+
     display: flex;
     flex-direction: row;
 
 
     min-height: 100vh;
 
-    
+   
     position: relative;
     overflow: hidden;
     padding-top: 10em; 
@@ -50,11 +127,12 @@ header{
 
 
 #Accueil  article {
+   z-index:10;
     align-self: center;
   }
 
 #Accueil  img {
-    z-index: 10;
+    z-index:10;
     border-radius: 50px;
 
   }
@@ -64,14 +142,16 @@ header{
   }
 
 
-#Accueil  .section-btn {
+#Accueil .section-btn {
     background: transparent;
     border: 2px solid #f9f9f9;
     color: #f9f9f9;
+    
   }
 
-#Accueil  .section-btn:hover,
-#Accueil  .section-btn:focus {
+
+#Accueil .section-btn:hover,
+#Accueil .section-btn:focus {
     background: #ce3232;
     border-color: transparent;
     color: #ffffff;
@@ -79,7 +159,7 @@ header{
 
 
    .overlay {
-     z-index:-2;
+     z-index:0;
     background: #00F260;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -222,6 +302,7 @@ header{
   text-align:center;
   padding-top:3em;
   padding-bottom:3em;
+  
 }
 
 
@@ -229,14 +310,27 @@ header{
   background: #e4e2e2;
   margin-bottom : 2em;
   margin-top: 2em;  
+  margin-left:4em;
+  margin-right:4em;
+  overflow:hidden;
+
+
+
 }
 
 
 #Experiences ul li article {
   text-align: center;
   align-self: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding:5% 8%;
+  
+}
+#Experiences ul li img {
+  
+  
+  height:auto;
+  position:relative;
+    
 }
 
 
@@ -246,3 +340,9 @@ header{
 /*====================================================
       Loisirs
 ====================================================*/
+#Loisirs {
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
